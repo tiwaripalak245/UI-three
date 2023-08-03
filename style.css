@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height: 800px;
+background-repeat: no-repeat;
+    background-image: url("./assets/ground-ginseng-7523161_1280.webp");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.box{
+    width: 650px;
+    height: 600px;
+    margin-top: 10px;
+    background-color: white;
+}
+nav{
+width: 100%;
+background-color: black;
+color: white;
+text-align: center;
+}
+
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.head ul{
+    list-style: none;
+    font-weight: bold;
+}
+span{
+    display: flex;
+}
+
+span p{
+    padding-left: 20px;
+}
+
+h1{
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding-left: 30px;
+}
+
+.grid-container{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    padding: 20px;
+}
+
+.tab{
+    border: 1px solid rgb(240, 235, 235);
+}
+
+.tab:first-child{
+    background-image: url("./assets/tab1.jpg");
+    background-position: center;
+    background-size: cover;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.tab:nth-child(2){
+    /* background-image: url("./assets/tab2.webp"); */
+    background-position: center;
+    background-size: cover;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.text h1{
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.text p{
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.tab:nth-child(3){
+    background-image: url("./assets/box3.jfif");
+    /* background-position: center;
+    background-size: cover; */
+    background-repeat: no-repeat;
+    object-fit: cover;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.tab:nth-child(4){
+    background-image: url("./assets/bigbox.jpg");
+    background-position: center;
+    background-size: cover;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.tab:nth-child(5){
+    background-image: url("./assets/maison_francis_kurkdjian-_0011_ROUGE_540_EDP_900x.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
